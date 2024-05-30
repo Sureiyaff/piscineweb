@@ -59,7 +59,7 @@
 
 ### Fonctions :
 1. **Ajouter/Modifier des Formules** :
-    - Accédez au tableau de bord admin en cliquant sur le lien **Admin Dashboard**.
+    - Accédez au tableau de bord admin en cliquant sur le lien **Admin**.
     - Pour ajouter une nouvelle formule, cliquez sur le lien **Ajouter une nouvelle formule** et remplissez le formulaire.
     - Pour modifier une formule existante, sélectionnez la formule dans le menu déroulant, puis cliquez sur le bouton **Modifier**.
 
