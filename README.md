@@ -59,7 +59,7 @@
 
 ### Fonctions :
 1. **Ajouter/Modifier des Formules** :
-    - Accédez au tableau de bord admin en cliquant sur le lien **Admin**.
+    - Accédez au tableau de bord admin en cliquant sur le lien **Admin Dashboard**.
     - Pour ajouter une nouvelle formule, cliquez sur le lien **Ajouter une nouvelle formule** et remplissez le formulaire.
     - Pour modifier une formule existante, sélectionnez la formule dans le menu déroulant, puis cliquez sur le bouton **Modifier**.
 
@@ -69,4 +69,45 @@
 
 ---
 
-Ce guide devrait vous aider à comprendre comment utiliser les différentes fonctionnalités de ce site. Si vous avez des questions supplémentaires ou besoin d'aide, n'hésitez pas à me le faire savoir.
+# Guide d'Installation du Site
+
+## Prérequis
+
+- [XAMPP](https://www.apachefriends.org/index.html)
+- [Node.js](https://nodejs.org/)
+
+## 1. Installation de XAMPP
+
+1. Téléchargez et installez XAMPP depuis le site officiel.
+2. Lancez le panneau de contrôle XAMPP.
+3. Démarrez les modules Apache et MySQL.
+
+## 2. Configuration de la Base de Données
+
+1. Ouvrez votre navigateur et accédez à [http://localhost/phpmyadmin](http://localhost/phpmyadmin).
+2. Créez une nouvelle base de données nommée `piscine_bts`.
+3. Importez le fichier SQL de votre base de données dans `phpMyAdmin` :
+   - Cliquez sur l'onglet **Import**.
+   - Sélectionnez le fichier SQL à partir de votre ordinateur.
+   - Cliquez sur **Exécuter** pour importer le schéma et les données de la base.
+
+## 3. Installation de Node.js
+
+1. Téléchargez et installez Node.js depuis le site officiel.
+2. Ouvrez un terminal ou une invite de commandes.
+
+## 4. Installation des Modules Node.js
+
+1. Accédez au répertoire de votre projet dans le terminal :
+   ```bash
+   cd path/to/your/project
+2. Installer les dépendances nécessaires en éxécutant:
+    ```bash
+   npm install
+    
+## 5. Lancement de l'application
+
+1. Démarrer votre application Node.js:
+   ```bash
+   node app.js
+2. Accèder à http://localhost:3000 dans votre navigateur pour voir le site en action.
